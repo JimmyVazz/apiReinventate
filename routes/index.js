@@ -3,7 +3,7 @@ const router  = express.Router();
 
 /* GET home page */
 router.get('/', (req, res, next) => {
-  res.send("A ver klooooos")
+  res.json("A ver klooooos")
 })
 
 
